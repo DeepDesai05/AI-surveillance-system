@@ -1,30 +1,44 @@
 # 🛡️ AI-Based Smart Surveillance System
 
-An advanced computer vision system that uses deep learning to detect potential threats and intrusions in real-time, such as weapons, violence, restricted zone entries, and wall jumps.
+An advanced Computer Vision project that detects weapons, intrusions, and suspicious activity using YOLOv8 and Vision-Language Models.
 
 ---
 
 ## 🔍 Features
 
-- Real-time **weapon detection** (gun, knife)
-- **Wall jump** detection using motion cues
-- **Restricted area** intrusion alerts
-- Detects **normal vs. violent behavior**
-- Trained with **YOLOv8** on a custom dataset
-- Can integrate **Vision-Language Models (VLM)** for scene understanding
-- Future goal: automatic alert to authorities with detection snapshot
+- 🔫 **Weapon detection** (guns, knives)
+- 🧗‍♂️ **Wall jump detection**
+- 🚫 **Restricted area intrusion**
+- 🤖 **VLM integration** for understanding scenes
+- 🧠 Trained on a **custom dataset** with YOLOv8
+- 📷 Plans to **alert authorities** with snapshots
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python, OpenCV
-- YOLOv8 (Ultralytics)
-- PyTorch
-- Streamlit / Flask (optional)
-- Numpy, Matplotlib
-- Vision-Language Model integration (e.g., CLIP, BLIP – future scope)
+- **Language:** Python
+- **Libraries:** OpenCV, PyTorch, Ultralytics YOLOv8, NumPy
+- **Model:** YOLOv8 (custom trained)
+- **Optional Integration:** VLM (Vision-Language Models)
 
 ---
 
+## 📂 Project Files
 
+| File | Description |
+|------|-------------|
+| `CV.py` | Core computer vision logic (YOLOv8) |
+| `CAM.py` | Camera input module |
+| `VLM.py` | Vision-Language Model integration |
+| `best (6).pt` | Trained YOLOv8 model weights |
+| `data.yaml` | YOLO class labels and paths |
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+```bash
+git clone https://github.com/DeepDesai05/ai-surveillance-system.git
+cd ai-surveillance-systemj 
