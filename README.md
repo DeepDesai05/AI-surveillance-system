@@ -41,4 +41,11 @@ An advanced Computer Vision project that detects weapons, intrusions, and suspic
 1. Clone the repo:
 ```bash
 git clone https://github.com/DeepDesai05/ai-surveillance-system.git
-cd ai-surveillance-systemj 
+cd ai-surveillance-system
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+pip install ultralytics opencv-python torch numpy
+python CV.py
+
